@@ -1,0 +1,64 @@
+{
+    "name": "php-web-component/adminlte",
+    "description": "PHP Web Component AdminLTE",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagus A Priambada",
+            "email": "iam.adty@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php-web-component/bootstrap": "dev-develop"
+    },
+    "require-dev": {
+        "almasaeed2010/adminlte": "2.4.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "PWC\\": "core/",
+            "PWC\\Component\\AdminLTE\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "path",
+            "url": "../core"
+        },
+        {
+            "type": "path",
+            "url": "../html"
+        },
+        {
+            "type": "path",
+            "url": "../asset"
+        },
+        {
+            "type": "path",
+            "url": "../bootstrap"
+        },
+        {
+            "type": "path",
+            "url": "../assets-manager"
+        },
+        {
+            "type": "path",
+            "url": "../cli"
+        },
+        {
+            "type": "path",
+            "url": "../util"
+        },
+        {
+            "type": "path",
+            "url": "../jquery"
+        }
+    ]
+}
