@@ -11,16 +11,6 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "php-web-component/asset": "dev-develop",
-        "php-web-component/assets-manager": "dev-develop",
-        "php-web-component/html": "dev-develop",
-        "php-web-component/bootstrap": "dev-develop"
-    },
-    "require-dev": {
-        "almasaeed2010/adminlte": "2.4.18",
-        "fortawesome/font-awesome": "4.7.0"
-    },
     "autoload": {
         "psr-4": {
             "PWC\\": "core/",
@@ -28,17 +18,15 @@
             "PWC\\Component\\AdminLTE\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://localhost/satis"
-        },
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
-    "config": {
-        "secure-http": false
+    "require": {
+        "php-web-component/core": "dev-develop",
+        "php-web-component/asset": "dev-develop",
+        "php-web-component/html": "dev-develop",
+        "php-web-component/jquery": "dev-develop",
+        "php-web-component/bootstrap": "dev-develop"
+    },
+    "require-dev": {
+        "almasaeed2010/adminlte": "2.4.18",
+        "kint-php/kint": "^3.3"
     }
 }
