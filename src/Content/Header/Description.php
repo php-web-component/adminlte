@@ -1,6 +1,6 @@
 <?php namespace PWC\Component\AdminLTE\Content\Header;
 
-use PWC\BuilderTrait;
+use PWC\Component\BuilderTrait;
 use PWC\Component;
 use PWC\Component\Html\Small;
 use PWC\Component\Text;

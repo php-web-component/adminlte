@@ -1,6 +1,6 @@
 <?php namespace PWC\Component\AdminLTE\Content\Header;
 
-use PWC\BuilderTrait;
+use PWC\Component\BuilderTrait;
 use PWC\Component;
 use PWC\Component\AdminLTE\Content\Header\Breadcrumb\ItemCollection;
 use PWC\Component\Html\ListContainer\OrderedList;
